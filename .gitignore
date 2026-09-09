@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/lib/
+/lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Data files (large datasets)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/embeddings/*
+!data/embeddings/.gitkeep
+data/embeddings_*/
+data/features/*
+!data/features/.gitkeep
+data/graph_cache/
+*.csv
+*.parquet
+*.npy
+
+# Models (large binary files)
+models/*
+!models/.gitkeep
+*.pth
+*.pkl
+*.h5
+
+# MLflow
+mlflow/
+mlruns/
+mlruns_*/
+
+# Docker volumes
+qdrant_storage/
+redis_data/
+prometheus_data/
+grafana_data/
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tar.gz
+*.zip
+root@*
+
+# Experimental/temporary scripts (root directory only)
+/*_temp.py
+/*_test.py
+/*_draft.py
+/fix_*.py
+/test_*.py
+/analyze_*.py
+/generate_*_safe.py
+/generate_*_simple.py
+/train_*_fixed.py
+/train_*_quick.py
+
+# Documentation (private)
+AGENT_ARCHITECTURE.md
+AGENT_SKILLS_SETUP_GUIDE.md
+AI_WORKFLOW_SKILLS.md
+IMPLEMENTATION_PLAN.md
+PROJECT_SPEC.md
+
+# Old Docs directory (moved to docs/)
+Docs/
